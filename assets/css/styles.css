@@ -1,0 +1,126 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
+body {
+    font-family: 'Roboto';
+    background-image: url(../img/sfondo.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5em;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-style: bold
+}
+
+header, main, aside, footer {
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5em;
+    padding: 0 1em;
+    line-height: 1.5em;
+}
+
+header p, aside h1 {
+    font: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+header p, header ul, article table th, footer p {
+    color: white;
+    line-height: 1em;
+    line-height: 1.2;
+}
+
+.box {
+    background-color: rgb(191, 191, 191);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1.2em;
+}
+table {
+    width: 50;
+    border-collapse: separate;
+    border-spacing: 0.2em;
+    border-bottom: 1px solid rgb(85, 85, 240);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(200, 200, 200);
+}
+
+table th {
+    background-color: rgb(85, 85, 240);
+    padding: 1em;
+}
+table td {
+    padding: 1em;
+}
+
+table caption {
+    font: bold;
+    color: black;
+}
+
+header img, header p, header ul {
+    padding: 1.5em; 
+    
+}
+
+header img {
+    width: 60%;
+}
+
+header {
+    background: rgb(16,135,180);
+    background: -moz-linear-gradient(180deg, rgba(16,135,180,1) 0%, rgba(13,100,125,1) 45%);
+    background: -webkit-linear-gradient(180deg, rgba(16,135,180,1) 0%, rgba(13,100,125,1) 45%);
+    background: linear-gradient(180deg, rgba(16,135,180,1) 0%, rgba(13,100,125,1) 45%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1087b4",endColorstr="#0d647d",GradientType=1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header a, header ul { 
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+main iframe {
+    width: 100%;
+    border-radius: 12px;
+}
+
+main {
+    background-color: white;
+    padding: 1.5em;
+}
+
+
+.boxgrigiotesto {
+    background-color: rgb(196, 196, 196);
+}
+
+footer {
+    background: rgb(16,139,180);
+    background: -moz-linear-gradient(180deg, rgba(16,139,180,1) 0%, rgba(13,56,125,1) 45%);
+    background: -webkit-linear-gradient(180deg, rgba(16,139,180,1) 0%, rgba(13,56,125,1) 45%);
+    background: linear-gradient(180deg, rgba(16,139,180,1) 0%, rgba(13,56,125,1) 45%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#108bb4",endColorstr="#0d387d",GradientType=1);
+    padding: 1.5em;
+}
